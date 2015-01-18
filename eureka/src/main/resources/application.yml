@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  dashboard:
+    enabled: false
