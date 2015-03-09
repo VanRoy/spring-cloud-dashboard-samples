@@ -13,3 +13,5 @@ bin
 git.properties
 .idea
 *.iml
+atlassian-ide-plugin.xml
+.clover

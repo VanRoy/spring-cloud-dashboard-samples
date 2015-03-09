@@ -3,7 +3,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.vanroy.cloud.samples</groupId>
+	<groupId>com.github.vanroy.cloud.samples</groupId>
 	<artifactId>eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-parent</artifactId>
-		<version>1.0.0.RC3</version>
+		<version>1.0.0.RELEASE</version>
 		<relativePath/>
 	</parent>
 
@@ -24,9 +24,9 @@
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>net.vanroy</groupId>
+			<groupId>com.github.vanroy</groupId>
 			<artifactId>spring-cloud-dashboard</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.0.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,7 +37,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<start-class>net.vanroy.cloud.samples.eureka.EurekaApplication</start-class>
+		<start-class>com.github.vanroy.cloud.samples.eureka.EurekaApplication</start-class>
 		<java.version>1.8</java.version>
 	</properties>
 
