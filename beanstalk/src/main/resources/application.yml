@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+
+spring.cloud.dashboard.beanstalk:
+  environment: test
+  instances:
+    management:
+      port: 99
+      scheme: httt
+      path: /ttt
