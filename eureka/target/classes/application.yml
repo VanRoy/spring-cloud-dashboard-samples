@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: TEST
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  dashboard:
+    enabled: false

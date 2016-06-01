@@ -12,3 +12,4 @@ main method, or use "mvn spring-boot:run"). It will start up on port
 |------------------|----------------------------------------|
 | eureka           | Dashboard with Eureka registry         |
 | eureka-remote    | Dashboard with Remote Eureka registry  |
+| beanstalk        | Dashboard with AWS Beanstalk registry  |

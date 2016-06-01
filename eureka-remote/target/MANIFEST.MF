@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Cloud Dashboard Eureka Remote Sample
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: net.vanroy.cloud.samples
+Build-Jdk: 1.8.0_25
+Built-By: julien
+Created-By: IntelliJ IDEA
+Main-Class: net.vanroy.cloud.samples.eureka.EurekaApplication
+
