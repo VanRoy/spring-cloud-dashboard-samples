@@ -3,9 +3,9 @@ server:
 
 
 spring.cloud.dashboard.beanstalk:
-  environment: test
+  environment: .*
   instances:
     management:
-      port: 99
-      scheme: httt
-      path: /ttt
+      port: 8080
+      scheme: http
+      path: /
