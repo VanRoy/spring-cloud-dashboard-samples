@@ -15,3 +15,7 @@ eureka:
     waitTimeInMsWhenSyncEmpty: 0
   dashboard:
     enabled: false
+
+management:
+  security:
+    enabled: false
